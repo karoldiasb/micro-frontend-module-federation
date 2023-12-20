@@ -1,2 +1,5 @@
 packages/app/node_modules
 packages/app/dist
+
+packages/home/node_modules
+packages/home/dist
