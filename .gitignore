@@ -3,3 +3,6 @@ packages/app/dist
 
 packages/home/node_modules
 packages/home/dist
+
+packages/contact/node_modules
+packages/contact/dist

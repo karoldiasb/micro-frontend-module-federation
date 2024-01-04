@@ -1,0 +1,39 @@
+{
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended", 
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "plugins": [
+    "react",
+    "react-hooks"
+  ],
+  "rules": {
+    "react/prop-types": "off",
+    "camelcase": 0,
+    "no-use-before-define": 0,
+    "arrow-body-style": ["warn", "as-needed"],
+    "arrow-parens": ["warn", "as-needed"],
+    "arrow-spacing": "warn",
+    "no-async-promise-executor": "warn",
+    "react/react-in-jsx-scope": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "no-unused-expressions": 0,
+    "import/prefer-default-export": 0,
+    "import/no-duplicates": 0,
+    "import/no-cycle": 0
+  }
+}
+  
