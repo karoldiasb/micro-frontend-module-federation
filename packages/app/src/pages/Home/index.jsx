@@ -7,7 +7,7 @@ function Home() {
     <Box display="flex" flexDir="column">
       <Navbar />
       <Box display="flex" alignSelf="center">
-        <Heading>Welcome!</Heading>
+        <Heading>welcome!</Heading>
       </Box>
     </Box>
   );
